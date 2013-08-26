@@ -1,0 +1,677 @@
+# depslib dependency file v1.0
+1349250976 source:c:\users\tzw\desktop\renegade\main.c
+
+1348836926 c:\users\tzw\desktop\renegade\api.h
+	<stdio.h>
+	<stdlib.h>
+	"glfw.h"
+
+1348834124 source:c:\users\tzw\desktop\renegade\init.c
+	"init.h"
+
+1348833354 c:\users\tzw\desktop\renegade\init.h
+	"api.h"
+
+1341345714 c:\users\tzw\desktop\renegade\glfw.h
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1351519569 source:c:\users\tzw\desktop\renegade\wnd.c
+	"wnd.h"
+	"SOIL.h"
+	"exception.h"
+	"scene.h"
+	"event.h"
+
+1349419453 c:\users\tzw\desktop\renegade\wnd.h
+	"base.h"
+	"color.h"
+
+1348836954 source:c:\users\tzw\desktop\renegade\crash.c
+	"crash.h"
+
+1348923050 c:\users\tzw\desktop\renegade\crash.h
+	"api.h"
+
+1349773443 source:c:\users\tzw\desktop\renegade\engine.c
+	"engine.h"
+	"exception.h"
+	"label.h"
+
+1349419179 c:\users\tzw\desktop\renegade\engine.h
+	"base.h"
+
+1349355030 c:\users\tzw\desktop\renegade\base.h
+	<stdio.h>
+	<stdlib.h>
+	"SDL/SDL.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdbool.h>
+
+1349617226 source:c:\users\tzw\desktop\renegade\base.c
+	"base.h"
+
+1349355132 source:c:\users\tzw\desktop\renegade\color.c
+	"color.h"
+	"type.h"
+	"exception.h"
+
+1349355053 c:\users\tzw\desktop\renegade\color.h
+	"base.h"
+
+1349239349 c:\users\tzw\desktop\renegade\type.h
+	"base.h"
+	"color.h"
+
+1349499931 source:c:\users\tzw\desktop\renegade\type.c
+	"type.h"
+	"exception.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1325738250 c:\users\tzw\desktop\renegade\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_platform.h
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_config_dreamcast.h
+	"SDL_platform.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_config_macos.h
+	"SDL_platform.h"
+	<MacTypes.h>
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_config_symbian.h
+	"SDL_platform.h"
+	<stdarg.h>
+	<stddef.h>
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_config_os2.h
+	"SDL_platform.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_config_minimal.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1326110912 c:\users\tzw\desktop\renegade\sdl\begin_code.h
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\close_code.h
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_keysym.h
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738121 c:\users\tzw\desktop\renegade\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1349015431 source:c:\users\tzw\desktop\renegade\exception.c
+	"exception.h"
+	"engine.h"
+	"string.h"
+	<time.h>
+
+1349012656 c:\users\tzw\desktop\renegade\exception.h
+	"base.h"
+
+1349499931 source:c:\users\tzw\desktop\renegade\event.c
+	"event.h"
+
+1349499931 c:\users\tzw\desktop\renegade\event.h
+	"base.h"
+
+1349499931 c:\users\tzw\desktop\renegade\soil.h
+
+1351513639 source:c:\users\tzw\desktop\renegade\texture.c
+	"texture.h"
+	"SOIL.h"
+
+1351512077 c:\users\tzw\desktop\renegade\texture.h
+	"base.h"
+	"color.h"
+
+1349414766 source:c:\users\tzw\desktop\renegade\scene.c
+	"scene.h"
+	"exception.h"
+
+1349499931 c:\users\tzw\desktop\renegade\scene.h
+	"base.h"
+	"sprite.h"
+
+1349361401 c:\users\tzw\desktop\renegade\spirit.h
+	"base.h"
+	"texture.h"
+
+1349360210 source:c:\users\tzw\desktop\renegade\spirit.c
+	"spirit.h"
+
+1351514240 c:\users\tzw\desktop\renegade\sprite.h
+	"base.h"
+	"texture.h"
+	"label.h"
+
+1351516582 source:c:\users\tzw\desktop\renegade\sprite.c
+	"sprite.h"
+	<wchar.h>
+
+1349508256 c:\users\tzw\desktop\renegade\text.h
+	"base.h"
+	"color.h"
+	<ft2build.h>
+
+1349509439 source:c:\users\tzw\desktop\renegade\text.c
+
+1349589886 source:c:\users\tzw\desktop\renegade\label.c
+	"label.h"
+
+1349578073 c:\users\tzw\desktop\renegade\label.h
+	"color.h"
+	"base.h"
+	<ft2build.h>
+
+1349617228 source:d:\hacking\renegade\base.c
+	"base.h"
+
+1362046650 d:\hacking\renegade\base.h
+	<stdio.h>
+	<stdlib.h>
+	"SDL/SDL.h"
+	"GL/glew.h"
+	<stdbool.h>
+
+1325738122 d:\hacking\renegade\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1325738250 d:\hacking\renegade\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_platform.h
+
+1325738122 d:\hacking\renegade\sdl\sdl_config_dreamcast.h
+	"SDL_platform.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_config_macos.h
+	"SDL_platform.h"
+	<MacTypes.h>
+
+1325738122 d:\hacking\renegade\sdl\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1325738122 d:\hacking\renegade\sdl\sdl_config_symbian.h
+	"SDL_platform.h"
+	<stdarg.h>
+	<stddef.h>
+
+1325738122 d:\hacking\renegade\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_config_os2.h
+	"SDL_platform.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_config_minimal.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1326110912 d:\hacking\renegade\sdl\begin_code.h
+
+1325738122 d:\hacking\renegade\sdl\close_code.h
+
+1325738122 d:\hacking\renegade\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_keysym.h
+
+1325738122 d:\hacking\renegade\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325738122 d:\hacking\renegade\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1360897260 source:d:\hacking\renegade\color.c
+	"color.h"
+	"type.h"
+	"exception.h"
+
+1360898834 d:\hacking\renegade\color.h
+	"base.h"
+
+1349239350 d:\hacking\renegade\type.h
+	"base.h"
+	"color.h"
+
+1349012658 d:\hacking\renegade\exception.h
+	"base.h"
+
+1362300906 source:d:\hacking\renegade\engine.c
+	"engine.h"
+	"exception.h"
+	"label.h"
+
+1360936724 d:\hacking\renegade\engine.h
+	"base.h"
+
+1361269590 d:\hacking\renegade\label.h
+	"color.h"
+	"base.h"
+	<ft2build.h>
+
+1360303768 source:d:\hacking\renegade\event.c
+	"event.h"
+
+1360303756 d:\hacking\renegade\event.h
+	"base.h"
+
+1349015431 source:d:\hacking\renegade\exception.c
+	"exception.h"
+	"engine.h"
+	"string.h"
+	<time.h>
+
+1361269590 source:d:\hacking\renegade\label.c
+	"label.h"
+
+1362150226 source:d:\hacking\renegade\main.c
+	<stdio.h>
+	<stdlib.h>
+	"renegade.h"
+	<time.h>
+	<GL/glew.h>
+
+1362148060 source:d:\hacking\renegade\scene.c
+	"scene.h"
+	"exception.h"
+
+1361270148 d:\hacking\renegade\scene.h
+	"base.h"
+	"sprite.h"
+
+1362147994 d:\hacking\renegade\sprite.h
+	"base.h"
+	"texture.h"
+	"label.h"
+
+1362301438 d:\hacking\renegade\texture.h
+	"base.h"
+	"color.h"
+
+1362235956 source:d:\hacking\renegade\sprite.c
+	"sprite.h"
+	"vector.h"
+	<wchar.h>
+
+1361327027 source:d:\hacking\renegade\texture.c
+	"texture.h"
+	"SOIL.h"
+
+1349499932 d:\hacking\renegade\soil.h
+
+1349499932 source:d:\hacking\renegade\type.c
+	"type.h"
+	"exception.h"
+
+1362237586 source:d:\hacking\renegade\wnd.c
+	"wnd.h"
+	<GL/glew.h>
+	"SOIL.h"
+	"exception.h"
+	"scene.h"
+	"event.h"
+
+1360923226 d:\hacking\renegade\wnd.h
+	"base.h"
+	"color.h"
+
+1361270153 d:\hacking\renegade\renegade.h
+	<stdbool.h>
+
+1361173964 source:d:\hacking\renegade\vector.c
+	"base.h"
+	<math.h>
+
+1360245676 d:\hacking\renegade\vector.h
+
